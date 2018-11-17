@@ -17,3 +17,12 @@
     This area controlled by Angular!
 </div>
 ```
+
+## Controllers
+
+* In Angular a controller is in charge of building a model.
+* A Model contains the data we need to work with and a controller
+will do whatever it need to grab that data..
+
+### Controller Basics
+    
