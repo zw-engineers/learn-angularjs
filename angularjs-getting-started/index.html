@@ -2,16 +2,23 @@
 <html ng-app="plunker">
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <title>AngularJS Plunker</title>
     <script>document.write('<base href="' + document.location + '" />');</script>
-    <link rel="stylesheet" href="style.css" />
-    <script data-require="angular.js@1.5.x" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.11/angular.min.js" data-semver="1.5.11"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <script data-require="angular.js@1.5.x"
+            src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.11/angular.min.js" data-semver="1.5.11"></script>
     <script src="app.js"></script>
 </head>
 
-<body ng-controller="MainController">
-<p>Hello {{name}}!</p>
+<body>
+    <div ng-controller="MainController"> <!-- View -->
+        <h4>MESSAGE:</h4>
+        <p>Hello {{message}}!</p>
+
+        <h4>MESSAGE LENGTH</h4>
+        <p>{{message}}'s length is: {{message.length}}</p>
+    </div>
 </body>
 
 </html>

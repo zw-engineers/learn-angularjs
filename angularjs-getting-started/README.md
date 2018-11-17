@@ -56,3 +56,20 @@ There are 4 basic facts about controllers in Angular:
     ```
 * Controller takes a `$scope` parameter.
 * Attach model to `$scope`.
+
+### Controller Capabilities
+
+* Notice how the controller never directly manipulate the HTML or what we call the _VIEW_.
+* The controller only manipulates the _scope_ by attaching a _model_.
+
+```javascript
+var MainController = function () { // Controller
+    $scope.message = 'World!'; // Model
+}
+```
+
+```html
+<div ng-controller="MainController"> <!-- View -->
+    {{message}}
+</div>
+```
