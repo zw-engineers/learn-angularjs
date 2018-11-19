@@ -1,4 +1,4 @@
-angular.module(`ItemsApp`, [])
-    .controller('MainCtrl', ($scope) => {
+angular.module('ItemsApp', [])
+    .controller('MainCtrl', function($scope) {
         $scope.title = 'Hello Pluralsight';
     });
