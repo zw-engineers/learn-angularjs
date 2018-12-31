@@ -1,0 +1,25 @@
+{
+  "name": "angularjs-getting-started",
+  "version": "1.0.0",
+  "description": "Angular Getting Started Application",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zw-engineers/learn-angularjs.git"
+  },
+  "keywords": [
+    "angularjs"
+  ],
+  "author": "Artemas-Muzanenhamo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zw-engineers/learn-angularjs/issues"
+  },
+  "homepage": "https://github.com/zw-engineers/learn-angularjs#readme",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.20"
+  }
+}
